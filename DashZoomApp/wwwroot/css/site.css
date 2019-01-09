@@ -1,0 +1,193 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\ 
+for details on configuring this project to bundle and minify static web assets. */
+body {
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+/* Carousel */
+.carousel-caption p {
+	font-size: 20px;
+	line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+	width: 100%;
+}
+
+/* QR code generator */
+#qrCode {
+	margin: 15px;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+	/* Hide captions */
+	.carousel-caption {
+		display: none;
+	}
+}
+
+#divMain {
+	margin-top: 15px;
+}
+
+
+/*--- Dash Unit / Used in Dashboard page ---*/
+.dash-unit {
+	margin-bottom: 30px;
+	padding-bottom: 10px;
+	border: 1px solid #383737;
+	background-image: url('../images/sep-half.png');
+	background-color: #3d3d3d;
+	color: white;
+	height: 100px;
+}
+
+.dash-unit:hover {
+	background-color: #4f4f4f;
+	-moz-box-shadow: 3px 3px 2px 0px #151515;
+	-webkit-box-shadow: 3px 3px 2px 0px #151515;
+	box-shadow: 3px 3px 2px 0px #151515;
+}
+
+.dash-unit dtitle {
+	font-size: 11px;
+	text-transform: uppercase;
+	color: #ffffff;
+	margin: 8px;
+	padding: 0px;
+	height: inherit
+}
+
+.dash-unit hr {
+	border: 0;
+	border-top: 1px solid #151515;
+	border-top-style: dashed;
+	margin-top: 3px;
+}
+
+.dash-unit h1 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 2px;
+	letter-spacing: 0px;
+	color: #ffffff;
+	padding-top: 10px;
+	padding-left: 5px;
+	margin-top: 2px;
+	text-align: center;
+}
+
+.dash-unit h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 26px;
+	letter-spacing: 0px;
+	color: #ffffff;
+	padding-top: 10px;
+	padding-left: 5px;
+	margin-top: 2px;
+	text-align: center;
+}
+
+
+.dash-unit h3 {
+	font-weight: 300;
+	font-size: 26px;
+	line-height: 2px;
+	letter-spacing: 0px;
+	color: #b2c831;
+	padding-top: 10px;
+	padding-left: 5px;
+	margin-top: 2px;
+	text-align: center;
+}
+
+
+.dash-unit p {
+	font-size: 14px;
+	font-weight: 200;
+	line-height: 16px;
+	color: inherit;
+	margin: 0 0 10px;
+	padding: 5px;
+}
+
+.dash-unit h4 {
+	padding-left: 5px;
+	margin-top: 2px;
+	font-size: 13px;
+	font-weight: lighter;
+	line-height: 1;
+	letter-spacing: 0px;
+	color: #fff;
+}
+
+.dash-unit bold {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 26px;
+	font-weight: bold;
+	color: #fff;
+	vertical-align: middle;
+}
+
+
+
+/**********Styling Elements**********/
+.cont {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.cont ok {
+	color: #b2c831;
+}
+
+.cont bad {
+	color: #fa1d2d;
+}
+
+.cont2 {
+	text-align: center;
+	margin-top: -15px;
+	font-size: 12px;
+	line-height: 7px;
+}
+
+.cont2 bold {
+	font-size: 10px;
+	color: #ffffff;
+}
+
+.cont2 bad {
+	font-size: 18px;
+	color: #fa1d2d;
+}
+.cont2 ok {
+	font-size: 18px;
+	color: #b2c831;
+}
+
+
+.text p {
+	font-family: 'Open Sans', sans-serif;
+	margin-left: 8px;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.text grey {
+	font-size: 11px;
+	color: silver
+}
